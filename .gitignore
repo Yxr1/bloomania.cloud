@@ -1,0 +1,11 @@
+/target/
+/node/
+/package-lock.json
+/node_modules/
+src/main/frontend/generated/
+/.mvn/
+/.idea/
+/.project
+/.classpath
+/.settings/
+.DS_Store
