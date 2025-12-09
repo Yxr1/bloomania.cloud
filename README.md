@@ -10,11 +10,11 @@ Vaadin website for my homelab.
    mvn spring-boot:run
    ```
    The app will be available at http://localhost:8080.
-3. To create a production build:
-   ```bash
-   mvn package
-   ```
-   The executable JAR will be written to `target/`.
+3. To create a production build with an optimized frontend bundle:
+    ```bash
+    mvn clean package -Pproduction
+    ```
+    The executable JAR will be written to `target/`.
 
 ## Project structure
 - `pom.xml`: Maven configuration with Vaadin and Spring Boot dependencies.
