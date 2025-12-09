@@ -1,8 +1,9 @@
 /target/
 /node/
+/frontend/
+/pnpm-lock.yaml
 /package-lock.json
 /node_modules/
-src/main/frontend/generated/
 /.mvn/
 /.idea/
 /.project

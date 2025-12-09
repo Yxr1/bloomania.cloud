@@ -2,12 +2,10 @@
 
 Vaadin website for my homelab.
 
-Built with Spring Boot 4.0.0 and Vaadin 24.9.6 for long-term support and current security patches.
-
 ## Getting started
 
 1. Ensure Java 21+ and Maven are installed.
-2. Run the development server (automatically installs the Vaadin frontend toolchain on first run):
+2. Run the development server:
    ```bash
    mvn spring-boot:run
    ```
