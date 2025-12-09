@@ -10,9 +10,9 @@ Vaadin website for my homelab.
    mvn spring-boot:run
    ```
    The app will be available at http://localhost:8080.
-3. To create a production build with an optimized frontend bundle:
+3. To create a production build with an optimized frontend bundle (enables Vaadin production mode during the build):
     ```bash
-    mvn clean package -Pproduction
+    mvn clean package -Dvaadin.productionMode=true
     ```
     The executable JAR will be written to `target/`.
 
