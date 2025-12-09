@@ -1,0 +1,12 @@
+/target/
+/node/
+/frontend/
+/pnpm-lock.yaml
+/package-lock.json
+/node_modules/
+/.mvn/
+/.idea/
+/.project
+/.classpath
+/.settings/
+.DS_Store
