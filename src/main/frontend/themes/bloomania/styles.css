@@ -1,0 +1,14 @@
+@import url('./main-layout.css');
+@import url('./views/home-view.css');
+@import url('./views/posts-view.css');
+@import url('./views/editposts-view.css');
+@import url('./views/projects-view.css');
+@import url('./views/private-projects-view.css');
+@import url('./views/edit-projects-view.css');    html, spreadsheet-view-export, grid-with-filters-view-export {
+      --lumo-body-text-color: hsla(0, 80%, 30%, 0.94);
+
+    }
+
+    [theme~="dark"] {
+
+    }
